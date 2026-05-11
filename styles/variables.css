@@ -1,1 +1,13 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: 'Inter-Variable', Arial, sans-serif;
+  --accent-font: 'PressStart2P', 'Courier New', monospace;
+  --font-weight-normal: 400;
+  --font-weight-bold: 715;
+  --bg-gradient: linear-gradient(180deg, #e7e7e7 0%, #1a1a1a 100%);
+  --contour-color: #000000;
+  --animation-fill-color: #ff0000;
+  --text-stroke-color: #ffffff;
+  --accent-color: #000000;
+  --button-text-color: #ffffff;
+  --content-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
+}
