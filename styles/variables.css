@@ -1,9 +1,13 @@
 :root {
   --main-font: 'Inter-Variable', Arial, sans-serif;
-  --accent-font: 'PressStart2P', 'Courier New', monospace;
-  --font-weight-normal: 400;
+  --accent-font: 'PressStart2P', fantasy;
+  --font-weight-normal: 410;
   --font-weight-bold: 715;
-  --bg-gradient: linear-gradient(180deg, #e7e7e7 0%, #1a1a1a 100%);
+  --bg-gradient: repeating-linear-gradient(
+    90deg,
+    #d3d3d3 0 2px,
+    rgb(0 0 0 / 0) 2px 4px
+  );
   --contour-color: #000000;
   --animation-fill-color: #000000;
   --text-stroke-color: #ffffff;
