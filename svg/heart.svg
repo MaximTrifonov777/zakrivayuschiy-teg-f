@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 24">
+  <g id="heart" class="heart">
+    <path class="contour" d="M6 0H3V3H6V0Z" fill="var(--contour-color)"/>
+    <path class="contour" d="M9 0H6V3H9V0Z" fill="var(--contour-color)"/>
+    <path class="contour" d="M3 3H0V6H3V3Z" fill="var(--contour-color)"/>
+    <path class="contour" d="M3 6H0V9H3V6Z" fill="var(--contour-color)"/>
+    <path class="contour" d="M3 9H0V12H3V9Z" fill="var(--contour-color)"/>
+    <path class="contour" d="M12 0H9V3H12V0Z" fill="var(--contour-color)"/>
+    <path class="contour" d="M6 12H3V15H6V12Z" fill="var(--contour-color)"/>
+    <path class="contour" d="M9 15H6V18H9V15Z" fill="var(--contour-color)"/>
+    <path class="contour" d="M12 18H9V21H12V18Z" fill="var(--contour-color)"/>
+    <path class="contour" d="M21 0H24V3H21V0Z" fill="var(--contour-color)"/>
+    <path class="contour" d="M18 0H21V3H18V0Z" fill="var(--contour-color)"/>
+    <path class="contour" d="M24 3H27V6H24V3Z" fill="var(--contour-color)"/>
+    <path class="contour" d="M24 6H27V9H24V6Z" fill="var(--contour-color)"/>
+    <path class="contour" d="M24 9H27V12H24V9Z" fill="var(--contour-color)"/>
+    <path class="contour" d="M15 0H18V3H15V0Z" fill="var(--contour-color)"/>
+    <path class="contour" d="M21 12H24V15H21V12Z" fill="var(--contour-color)"/>
+    <path class="contour" d="M18 15H21V18H18V15Z" fill="var(--contour-color)"/>
+    <path class="contour" d="M15 18H18V21H15V18Z" fill="var(--contour-color)"/>
+    <path class="contour" d="M15 3H12V6H15V3Z" fill="var(--contour-color)"/>
+    <path class="contour" d="M15 21H12V24H15V21Z" fill="var(--contour-color)"/>
+    
+    <path class="main-body" d="M6 3H3V6H6V3Z" fill="transparent"/>
+    <path class="main-body" d="M9 3H6V6H9V3Z" fill="transparent"/>
+    <path class="main-body" d="M12 3H9V6H12V3Z" fill="transparent"/>
+    <path class="main-body" d="M15 6H12V9H15V6Z" fill="transparent"/>
+    <path class="main-body" d="M18 3H15V6H18V3Z" fill="transparent"/>
+    <path class="main-body" d="M21 3H18V6H21V3Z" fill="transparent"/>
+    <path class="main-body" d="M24 6H21V9H24V6Z" fill="transparent"/>
+    <path class="main-body" d="M6 6H3V9H6V6Z" fill="transparent"/>
+    <path class="main-body" d="M9 6H6V9H9V6Z" fill="transparent"/>
+    <path class="main-body" d="M12 6H9V9H12V6Z" fill="transparent"/>
+    <path class="main-body" d="M15 9H12V12H15V9Z" fill="transparent"/>
+    <path class="main-body" d="M18 6H15V9H18V6Z" fill="transparent"/>
+    <path class="main-body" d="M21 6H18V9H21V6Z" fill="transparent"/>
+    <path class="main-body" d="M24 9H21V12H24V9Z" fill="transparent"/>
+    <path class="main-body" d="M6 9H3V12H6V9Z" fill="transparent"/>
+    <path class="main-body" d="M9 9H6V12H9V9Z" fill="transparent"/>
+    <path class="main-body" d="M12 9H9V12H12V9Z" fill="transparent"/>
+    <path class="main-body" d="M15 12H12V15H15V12Z" fill="transparent"/>
+    <path class="main-body" d="M18 9H15V12H18V9Z" fill="transparent"/>
+    <path class="main-body" d="M21 9H18V12H21V9Z" fill="transparent"/>
+    <path class="main-body" d="M6 12H3V15H6V12Z" fill="transparent"/>
+    <path class="main-body" d="M9 12H6V15H9V12Z" fill="transparent"/>
+    <path class="main-body" d="M12 12H9V15H12V12Z" fill="transparent"/>
+    <path class="main-body" d="M15 15H12V18H15V15Z" fill="transparent"/>
+    <path class="main-body" d="M18 12H15V15H18V12Z" fill="transparent"/>
+    <path class="main-body" d="M21 12H18V15H21V12Z" fill="transparent"/>
+    <path class="main-body" d="M9 15H6V18H9V15Z" fill="transparent"/>
+    <path class="main-body" d="M12 15H9V18H12V15Z" fill="transparent"/>
+    <path class="main-body" d="M15 18H12V21H15V18Z" fill="transparent"/>
+    <path class="main-body" d="M18 15H15V18H18V15Z" fill="transparent"/>
+    <path class="main-body" d="M12 18H9V21H12V18Z" fill="transparent"/>
+    
+    <path class="core" d="M9 6H6V9H9V6Z" fill="transparent"/>
+    <path class="core" d="M12 6H9V9H12V6Z" fill="transparent"/>
+    <path class="core" d="M9 9H6V12H9V9Z" fill="transparent"/>
+    <path class="core" d="M12 9H9V12H12V9Z" fill="transparent"/>
+    <path class="core" d="M15 6H12V9H15V6Z" fill="transparent"/>
+    <path class="core" d="M18 6H15V9H18V6Z" fill="transparent"/>
+    <path class="core" d="M18 9H15V12H18V9Z" fill="transparent"/>
+    <path class="core" d="M18 12H15V15H18V12Z" fill="transparent"/>
+    
+    <path class="sparks" d="M12 3H9V6H12V3Z" fill="transparent"/>
+    <path class="sparks" d="M15 6H12V9H15V6Z" fill="transparent"/>
+    <path class="sparks" d="M18 6H15V9H18V6Z" fill="transparent"/>
+    <path class="sparks" d="M12 12H9V15H12V12Z" fill="transparent"/>
+  </g>
+</svg>
