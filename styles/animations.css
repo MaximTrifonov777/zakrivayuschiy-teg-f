@@ -23,7 +23,7 @@
   transform-origin: center;
 }
 
-/* Состояние покоя */
+/* ===== Состояние покоя ===== */
 .core {
   fill: transparent;
   transition: fill 0.3s linear 0.03s;
@@ -43,7 +43,7 @@
   opacity: 0;
 }
 
-/* Наведение */
+/* ===== Наведение ===== */
 .like-icon:hover .core {
   fill: var(--contour-color);
   transition: fill 0.3s linear;
@@ -54,7 +54,7 @@
   transition: fill 0.3s linear 0.05s;
 }
 
-/* Нажатие */
+/* ===== Нажатие ===== */
 .like-icon:active .core {
   fill: var(--animation-fill-color);
   transition: fill 0.3s linear;
@@ -65,7 +65,7 @@
   transition: fill 0.3s linear 0.05s;
 }
 
-/* Лайкнутое состояние */
+/* ===== Лайкнутое состояние ===== */
 .like-icon.is-liked .core {
   fill: var(--animation-fill-color);
   transition: fill 0.3s linear;
