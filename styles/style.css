@@ -1,37 +1,15 @@
-:root {
-  --main-font: 'Inter-Variable', Arial, sans-serif;
-  --accent-font: 'PressStart2P', fantasy;
-  --font-weight-normal: 410;
-  --font-weight-bold: 715;
-  --bg-gradient: 
-    repeating-linear-gradient(
-      90deg,
-      #d3d3d3 0 2px,
-      transparent 2px 4px
-    ),
-    repeating-linear-gradient(
-      180deg,
-      #d3d3d3 0 2px,
-      transparent 2px 4px
-    );
-  --contour-color: #000000;
-  --animation-fill-color: #000000;
-  --text-stroke-color: #ffffff;
-  --accent-color: #000000;
-  --button-text-color: #ffffff;
-  --content-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
-}
-
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font, 'Inter-Variable', Arial, sans-serif);
   font-variation-settings: 'wght' var(--font-weight-normal, 410);
   background-color: #ffffff;
-  background-image: linear-gradient(180deg, #E7E7E7 0%, #1A1A1A 100%);
-  background-size: 1440px 960px;
-  background-repeat: no-repeat;
-  background-position: top center;
+  background-image: 
+    repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+    repeating-linear-gradient(180deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
+    linear-gradient(180deg, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
+  background-size: cover;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,7 +18,6 @@
 
 @media (width <= 375px) {
   .page {
-    background-size: 375px 667px;
     padding-block: 100px 100px;
   }
 }
@@ -92,6 +69,13 @@
   background-color: #ffffff;
 }
 
+.card__title {
+  font-variation-settings: 'wght' var(--font-weight-bold, 715);
+  font-size: 18px;
+  line-height: 100%;
+  padding-block: 10px; /* добавлено по ревью */
+}
+
 .card__image-wrapper {
   position: relative;
   inline-size: 100%;
@@ -140,12 +124,6 @@
   gap: 25px;
 }
 
-.card__title {
-  font-variation-settings: 'wght' var(--font-weight-bold, 715);
-  font-size: 18px;
-  line-height: 100%;
-}
-
 .card__text {
   font-size: 18px;
   line-height: 21px;
@@ -162,6 +140,8 @@
   background: none;
   border: 2px solid transparent;
   padding: 0;
+  width: 38px;
+  height: 38px;
   cursor: pointer;
   transition: border-color 0.3s ease;
   display: flex;
@@ -246,12 +226,13 @@
   margin-block-start: 50px;
   padding: 10px 15px;
   display: flex;
+  flex-direction: column; /* по ревью — колонка */
   align-items: center;
   justify-content: center;
   gap: 6px;
   background-color: #ffffff;
-  width: 266px;
-  height: 55px;
+  width: 310px; /* по ревью */
+  height: 84px; /* по ревью */
 }
 
 .save-button .button__icon {
@@ -261,16 +242,14 @@
 
 .save-button .button__text {
   font-size: 12px;
-  white-space: nowrap;
 }
 
-/* ===== DIALOG (исправленный) ===== */
+/* ===== DIALOG ===== */
 .dialog {
   position: fixed;
   inset: 0;
   margin: auto;
-  width: 353px;
-  max-height: 191px;
+  max-width: 353px;
   padding: 30px;
   border: 2px solid var(--accent-color, #000000);
   background-color: #ffffff;
@@ -347,40 +326,22 @@
 /* ===== MEDIA (mobile) ===== */
 @media (width <= 375px) {
   .page {
-    background-size: 375px 667px;
     padding-block: 100px 100px;
   }
 
   .header {
-    width: 375px;
-    height: 327px;
-    padding: 16px;
-    gap: 20px;
-    justify-content: center;
-    margin-block-end: 50px;
-  }
-  
-  .header__logo-group {
-    width: 343px;
-    height: 83px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+    padding-block: clamp(5rem, 4.5rem + 2.5vw, 6.25rem);
+    padding-inline: clamp(0.5rem, -0.5rem + 5vw, 1rem);
+    gap: 15px;
   }
   
   .header__logo {
-    font-size: 2rem;
+    font-size: clamp(2rem, 1.5rem + 2.5vw, 2.5rem);
   }
   
   .header__title {
-    font-size: 0.75rem;
-  }
-  
-  .card {
-    width: 375px;
-    height: 841px;
+    font-size: clamp(0.75rem, 0.5rem + 1.25vw, 0.875rem);
+    text-align: center;
   }
   
   .card__watermark {
@@ -403,9 +364,9 @@
   }
 
   .save-button {
-    width: 266px;
-    height: 55px;
-    flex-direction: row;
+    width: 310px;
+    height: 84px;
+    flex-direction: column;
     padding: 10px 15px;
     gap: 6px;
   }
@@ -418,9 +379,7 @@
   }
   
   .dialog {
-    width: 353px;
-    height: auto;
-    min-height: 191px;
+    max-width: 353px;
     padding: 30px;
     gap: 30px;
   }
