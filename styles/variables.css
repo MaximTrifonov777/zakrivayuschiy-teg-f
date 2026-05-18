@@ -15,7 +15,7 @@
       transparent 2px 4px
     );
   --contour-color: #000000;
-  --animation-fill-color: #000000;
+  --animation-fill-color: #FF0000; /* ИСПРАВЛЕНО: был #000000, стал красный */
   --text-stroke-color: #ffffff;
   --accent-color: #000000;
   --button-text-color: #ffffff;
