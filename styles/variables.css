@@ -15,9 +15,10 @@
       transparent 2px 4px
     );
   --contour-color: #000000;
-  --animation-fill-color: #FF0000; /* ИСПРАВЛЕНО: был #000000, стал красный */
+  --animation-fill-color: #000000;
   --text-stroke-color: #ffffff;
   --accent-color: #000000;
   --button-text-color: #ffffff;
   --content-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
 }
+
