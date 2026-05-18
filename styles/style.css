@@ -231,6 +231,10 @@
   justify-content: center;
   gap: 10px;
   background-color: #ffffff;
+  position: relative;
+  z-index: 1;
+  color: var(--button-text-color, #ffffff);
+  mix-blend-mode: difference; 
 }
 
 .save-button .button__icon {
